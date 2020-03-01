@@ -1,0 +1,87 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(117, 112, 112);
+}
+
+nav a:link{
+    text-decoration: none;
+    color: rgb(117, 112, 112);
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: rgb(117, 112, 112);
+}
+
+nav a:active{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav li{
+    display: inline;
+    padding: 5px;
+}
+
+nav li:hover{
+    cursor:pointer;
+}
+
+nav{
+    margin-bottom: 5px;
+}
+
+header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(189, 185, 185);
+    text-align: right;
+}
+
+#top-container{
+    border-bottom: 1px solid rgb(189, 185, 185);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#top-container h1{
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+    color: orange;
+}
+
+#tw-container{
+    margin: 0px auto;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(189, 185, 185);
+    padding-bottom: 20px;
+}
+
+#wl-container{
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#big{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+#normal1 {
+    margin: 0px;
+    padding: 0px;
+}
