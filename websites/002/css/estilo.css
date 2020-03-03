@@ -83,6 +83,12 @@ header a:hover{
     font-weight: bold;
 }
 
+#real-home{
+    border: 2px dotted orange;
+    border-radius: 20px;
+    padding: 3px;
+}
+
 /*Showcase*/
 #showcase{
     min-height: 400px;

@@ -85,3 +85,27 @@ header{
     margin: 0px;
     padding: 0px;
 }
+
+.link-fonte{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px dotted orange;
+    color: orange;
+    border-color: orange;
+    border-radius: 5px;
+    padding: 1px 5px 1px 5px;
+}
+
+.link-fonte:active{
+    color: red;
+    border-color: red;
+    padding: 2px 20px 2px 20px;
+    transition: 200ms;
+}
+
+.link-fonte:hover{
+    padding: 2px 10px 2px 10px;
+    transition: 200ms;
+    border-style: groove;
+}
