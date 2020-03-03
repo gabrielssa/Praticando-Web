@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Gabriel Schubert | 180 Websites</title>
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
@@ -18,34 +19,41 @@
             </nav>
         </header>
 
-        <div id="top-container">
-            <h1>Olá!</h1>
-            <p id="normal1">Eu sou Gabriel Schubert e estou fazendo</p>
-            <p id="big">pelo menos um site por dia</p>
-        </div>
-        <!-- Today website container-->
-        <div id="tw-container">
-            <h1>Website de hoje</h1>
-            <a href="websites/002">Acme Design</a>
-        </div>
+        <section id="showcase">
+            <div class="container">
+                <h1>Olá!</h1>
+                <p id="normal1">Eu sou Gabriel Schubert e estou fazendo</p>
+                <p id="big">pelo menos um site por dia</p>
+            </div>
+        </section>
 
-        <!-- Website list container-->
-        <div id="wl-container">
-            
-            <div>
-                <span>Dia 002</span>
+        <section id="showcase2">
+
+            <div class="container">
+                <h1>Website de hoje</h1>
                 <a href="websites/002">Acme Design</a>
-                <a class="link-fonte" href="https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=3">tutorial-fonte
-                <img id="yt-logo" src="img/yt-icon.png">
-                </a>
-                
             </div>
 
-            <div>
-                <span>Dia 001</span>
-                <a href="#">Home page</a>
-            </div>
+        </section>
 
-        </div>
+        <!-- Article -->
+            <article>
+                <div class="container">
+            
+                    <div class="website">
+                        <span>Dia 002</span>
+                        <a href="websites/002">Acme Design</a>
+                        <a class="link-fonte" href="https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=3">tutorial-fonte
+                        <img id="yt-logo" src="img/yt-icon.png">
+                        </a>
+                    </div>
+
+                    <div class="website">
+                        <span>Dia 001</span>
+                        <a href="#">Home page</a>
+                    </div>
+
+                </div>
+            </article>
     </body>
 </html>
