@@ -72,6 +72,14 @@ header{
     text-decoration: none;
 }
 
+#yt-logo{
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+
 #big{
     font-size: 40px;
     margin: 0px;
