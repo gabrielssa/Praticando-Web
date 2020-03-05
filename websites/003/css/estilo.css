@@ -17,7 +17,6 @@ body{
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px 4px black;
-
     display: flex;
     flex-direction: column;
     justify-content: center;

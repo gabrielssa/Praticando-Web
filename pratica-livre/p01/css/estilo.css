@@ -1,0 +1,39 @@
+.card{
+    width: 30px;
+    height: 30px;
+
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    border-radius: 20px;
+    border: 1px solid black;
+
+    background-size: cover;
+    background-position: center;
+
+    color:#fff;
+    text-align: center;
+
+    display: inline;
+
+}
+
+.cards{
+    display: inline;
+}
+
+
+.card h1{
+    margin-top: 22px;
+    background-color: rgba(119, 115, 115, 0.7);
+    border-radius: 20px;
+}
+
+#murloc{
+    background-image: url('../img/murloc.jpg');
+}
+
+#tiger{
+    background-image: url('../img/tiger.jpg')
+}
