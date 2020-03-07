@@ -21,6 +21,6 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "Error deleting record: " . $conn->error;
 }
-echo '<a href="index.html">Voltar</a><br>';
+echo '<br><a href="index.html">Voltar</a>';
 $conn->close();
 ?> 

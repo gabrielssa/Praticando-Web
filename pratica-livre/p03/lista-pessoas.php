@@ -24,6 +24,8 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
+    echo "$result->num_rows pessoas encontradas<br>";
+
     while($row = $result->fetch_assoc()) {
         echo "id: " . $row["id"]. " - Nome: " . $row["nome"]. "<br>";
     }

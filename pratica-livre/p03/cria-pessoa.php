@@ -19,14 +19,28 @@ if (!$conexao) {
 $nome = $_POST['nome'];
 $id = $_POST['id'];
 
-$insert = "INSERT INTO tb_pessoa (id, nome) VALUES ('$id','$nome')";
+//verificando se pessoa existe
 
-if ($conexao->query($insert) === TRUE) {
-    echo "Nova pessoa foi cadastrada";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+$verificaId= "SELECT * FROM tb_pessoa WHERE id='$id'";
+$resultId = $conexao->query($verificaId);
+
+$verificaNome = "SELECT * FROM tb_pessoa WHERE nome='$nome'";
+$resultNome = $conexao->query($verificaNome);
+
+if($resultId->num_rows > 0){
+    echo 'Id já está sendo usado';
+}elseif($resultNome->num_rows > 0){
+    echo 'Nome já está sendo usado';
+}else{
+    $insert = "INSERT INTO tb_pessoa (id, nome) VALUES ('$id','$nome')";
+
+    if ($conexao->query($insert) === TRUE) {
+        echo "Nova pessoa foi cadastrada";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
 }
-
+echo '<br><a href="index.html">Voltar</a>';
 mysqli_close($conexao);
 
 ?>
