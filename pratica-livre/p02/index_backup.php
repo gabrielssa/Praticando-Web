@@ -14,7 +14,10 @@
       </div>
       <div class="card-stats">
         <div class="stat">
-          <div class="value">3<sup>h</sup>24<sup>m</sup></div>
+          <!--<div class="value">6<sup>d</sup>3<sup>h</sup>24<sup>m</sup></div> -->
+          <?php
+            include "uptime.php";
+          ?>
           <div class="type">Uptime</div>
         </div>
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Pessoa</title>
+</head>
+<body>
+    <section>
+        <h1>Cadastrar Pessoa</h1>
+        <form action="cria-pessoa.php" method="post">
+
+            <input type="text" name="nome" placeholder="Primeiro Nome" />
+        
+            <input type="text" name="id" placeholder="Id desejado" />
+        
+            <input type="submit" name="Cadastrar" value="Cadastrar" />
+        </form>
+    </section>
+
+    <section>
+        <h1>Deleta Pessoa</h1>
+        <form action="deleta-pessoa.php" method="post">
+            <input type="text" name="id">
+            <input type="submit" value="Apagar Pessoa" name="Apagar">
+        </form>
+    </section>
+</body>
+</html>
