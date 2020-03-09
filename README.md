@@ -1,5 +1,5 @@
 # English
-Personal projects related to web development. Languages used: html5, css3, php
+Personal projects related to web development. Languages used: html5, css3, php7
 
 # Português
 
